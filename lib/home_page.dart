@@ -46,6 +46,7 @@ class _HomePageState extends State<HomePage>{
         title: const Text('Cartoons List',style: TextStyle(color: Colors.white,fontSize: 30,fontWeight: FontWeight.bold),),
         centerTitle: true,
         backgroundColor: Colors.red,
+        
       ),
       floatingActionButton: SizedBox(
         width: 80,
