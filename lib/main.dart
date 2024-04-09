@@ -15,9 +15,10 @@ class MyApp extends StatelessWidget {
       title: 'CLASSROOM',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.purple,
-          //brightness: Brightness.dark,
+          seedColor: const Color.fromARGB(255, 61, 58, 61),
+          
         ),
+        scaffoldBackgroundColor: Colors.black,
         useMaterial3: true,
       ),
       // home: const PinLoginPage(),
